@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Quiz App - Home</title>
+    <link rel="stylesheet" th:href="@{/css/style.css}" />
+</head>
+<body>
+<h2>Welcome to Quiz App</h2>
+<form action="/quiz" method="get">
+    <label>Username:</label>
+    <input type="text" name="username" placeholder="Guest"/><br/><br/>
+    <label>Number of Questions:</label>
+    <input type="number" name="count" value="3"/><br/><br/>
+    <label>Time (seconds):</label>
+    <input type="number" name="seconds" value="60"/><br/><br/>
+    <button type="submit">Start Practice</button>
+</form>
+</body>
+</html>
