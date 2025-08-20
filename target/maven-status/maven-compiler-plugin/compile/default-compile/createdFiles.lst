@@ -1,9 +1,0 @@
-com\example\quiz\repository\QuestionRepository.class
-com\example\quiz\service\QuizService.class
-com\example\quiz\controller\QuizController.class
-com\example\quiz\dto\QuizForm.class
-com\example\quiz\repository\ResultRepository.class
-com\example\quiz\model\Question.class
-com\example\quiz\QuizAppApplication.class
-com\example\quiz\dto\UserAnswer.class
-com\example\quiz\model\Result.class
